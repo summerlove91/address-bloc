@@ -8,6 +8,10 @@ require "csv"
       @entries = []
     end
 
+    def demolish
+      @entries = []
+    end
+
     def remove_entry(name, phone_number, email)
       delete_entry = nil
 
